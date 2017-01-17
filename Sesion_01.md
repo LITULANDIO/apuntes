@@ -1,6 +1,6 @@
 #Sesion 01 -- Skylab Coders --
 ###Lunes 16 de Enero del 2016
-[Guide Full Stack Bootcamp](https://skylabcoders.github.io/bootcamp-winter2017/)
+
 ##Front End                         
 
 * HTML -->Contenido

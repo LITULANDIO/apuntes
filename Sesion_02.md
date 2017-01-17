@@ -1,6 +1,6 @@
 #Sesion 02 -- Skylab Coders --
 ###Martes 17 de Enero del 2016
-[Guide Full Stack Bootcamp](https://skylabcoders.github.io/bootcamp-winter2017/
+
 
 ##JAVASCRIPT
 
