@@ -1,0 +1,204 @@
+#Sesion 02 -- Skylab Coders --
+###Martes 17 de Enero del 2016
+[Guide Full Stack Bootcamp](https://skylabcoders.github.io/bootcamp-winter2017/
+
+##JAVASCRIPT
+
+Es un lenguaje interpretado, no tiene que hacer ningún proceso de compilación y es capaz de ejecutarlo sin ser compilado.
+
+####Versiones
+
+ * Ecma02 -- Pasado: Explorer
+ * Ecma05 -- Presente
+ * Ecma2015 -- Futuro
+
+ Variables, se almacenan datos y puedan variar en diferentes estados del programa.
+
+ Se declara ```javascript 
+                var nombre```
+###Datos primitivos
+
+Para expresar  números:
+
+  * Decimal: 0 1 2 3 4 5 6 7 8 9 
+  * Binaria: 01
+  * Octal: 0 1 2 3 4 5 6 7 
+  * Hexadecimal: 0 2 3 4 5 6 7 8 9
+                  A B C D E F
+
+Para expresar los Strings " ", ''
+
+Para expresar los Booleanos: true or false
+
+Si no se inicializa una variables es *undefined*
+
+###Operadores aritméticos
+
+   *   Suma = <**+;**
+   *   Resta = **-;**
+   *   Multiplicación = ***;**
+   *   División = **/;**
+   *   Resto = **%;**
+   *   Incremento = **++;**
+   *   Decremento = **- -;**
+    
+###Operadores lógicos
+
+   *   Verdadero = **true;**
+   *   Falso = **false;**
+   *   O = **||;**
+   *   Y....= **&&;**
+
+###Operadores de comparación
+
+   *   Estrictamente igual **===;**
+   *   Distinto a = **!=;**
+   *   Mayor que = **>;**
+   *   Menor que = **<;**
+
+### Conversiones
+
+Doble negación **!!**
+
+## Condicionales
+
+   * **IF ELSE**
+```javascript
+var Myname;
+
+If(Myname{
+    console.log(Myname)
+} else{
+    console.log("You don't have a name");
+    
+}
+```
+
+Sirve para saver si una variable está vacía: undefined
+Volverá false, si la declaramos vovlerá true.
+
+```javascript
+var myName;
+
+If(age>=40){
+    myName ="SuperLitus"
+}
+else{
+    myName ="Litus;
+}
+
+///Operador ternario: Simplifica if básicos
+
+var myName = (age>=40) ? "SuperLitus" : "Litus";
+```
+  * **SWitch**
+
+```javascript
+var a = '1';
+var result = '';
+
+ Switch (a){
+    case 1:
+        result = 'Number 1';
+        break;
+    case 2:
+        result = 'Number2';
+        break
+ }
+```
+  * **LOOPS**
+
+
+1. WHILE 
+```javascript
+var 1 = 0;
+while(i<10){
+    i++
+}
+```
+
+2. DO WHILE
+```javascript
+var 1 = 0;
+do{
+    i++;
+}while (i <1 0)
+```
+2. **FOR**
+```javascript
+var punishment = '';
+
+for (var i =0; i <100; i++){
+
+    punishment += "I will never do this again";
+}
+
+
+
+```
+
+  * **FUNCTIONS**
+
+Las funciones siempre devuelven algo, son objetos
+
+```javascript
+// Definir una funciona forma 1
+function sum(a+b){
+    var c = a+ b;    
+    return = c;
+}
+// Definir una funcion forma 2
+var sum = function sum(a+b){
+    var c = a+ b;
+    return = c;
+}
+//Llamar a una función 
+sum(2,3);
+
+//Funcion anonima
+>>> function invoke_and_add(a, b){ return a() + b(); }
+>>> function one() { return 1; }
+>>> function two() { return 2; }
+>>> invoke_and_add(one, two);
+3
+```
+
+La función Parseint, nos pasa de string a números:
+
+typeof "123"
+"string"
+
+parseint("123")
+
+typeof parseint("123")
+"number"
+
+**isNan()**: Nos devuelve true o false si es un numero o no.
+
+**eval()**: No es recomendado su uso, puede abrir un agujero en la seguridad del código.
+
+  * **CLOSURES**
+
+Variables  globales
+Variables locales
+
+Scoop es el término que se utiliza para saber la visibilidad de una función si es local la variable o global. ( es decir el scoop de una variable puede ser local o global o las 2 a la vez).
+
+Si no hay varibales definidas dentro de una función el return buscará una variable global.
+
+Una función puede acceder a una variable externa pero no al revés.
+
+Una funcion padre podrá acceder a las variables  globales (exterior) y variables locales (internas) pero no a las variables hijos, si en cambio el hijo puede acceder a la variable local, padre y global y así sucesisavemente.
+
+Ejemplo:
+
+```javascript
+
+var a = 123;
+function f() {
+  alert(a);
+  var a = 1;
+  alert(a);
+}
+f();
+```
