@@ -202,3 +202,65 @@ function f() {
 }
 f();
 ```
+
+###Practicando  closures
+
+var a; typeof a;  **devolverá: undefined**
+var s = '1s'; s++; **devolverá: NaN ++suma1 pero al ser string no puede sumar** 
+!!"false" **devolverá: True**
+!!undefined **devolverá: False**
+undefined == null **devolverá: True**
+false == "" **devolverá: True**
+false === "" **devolverá: False**
+typeof "2E+2" **devolverá: String**
+a = 3e+3; a++; **devolverá: 3001, 3: decena, e =exponencial =3000++ = 3001**
+
+var v = v || 10; **devolverá: 10**
+var v = 100; **devolverá: 100**
+var v = v || 10; **devolverá: 100**
+var v = 0; **devolverá: 0**
+var v = v || 10; **devolverá: 10**
+var v = null; **devolverá: null**
+var v = v || 10; **devolverá: 10**
+```javascript
+var x = 'Hello World';
+function foo(){ 
+    var x;
+    alert( x );
+    x = 'New Value';
+    alert( x );
+}
+foo(); // devuelve el primer alert como undefined
+      // 2º alert devolvera New value, porque foo() sólo
+      // encuentra en local la variable declarada como new value, hellow world no la interpreta
+
+function test() {
+    foo();
+    bar();
+    var foo = function () {
+        alert("this won't run!");
+    }
+    function bar() {
+        alert("this will run!");
+    }
+}
+test(); 
+//funcion test ve foo() como undefined i bar() 
+//detecta automaticamente que existen datos, al estar 
+//declarada como una varibale var foo = function, 
+//prevalece la declaracion de una funcion como tradicional.
+
+var a = 1;
+function f() {
+    var a = 2;
+    function n() {
+        alert(a);
+    }
+    n();
+}
+f(); f() 
+//ve que hay una variable pero la ve como undefined, 
+//detecta n(), y n //busca el valor de la varibale primero
+ //si existe en local y se va al padre, con lo cual  acaba 
+ //devolviendo 2.
+```
