@@ -25,6 +25,10 @@
 * CTRL + S = Guardar
 * CTRL + C = Copiar
 * CTRL + D = Selecciona 1 variable y se modifica todas las variables a la vez cuando escrives.
+* CTRL + Z = Volver atrás
+* CTRL + y = Hacia delante
+* CTRL + f = Buscar la palabra
+* ALT = Aparezca el menú
 
 Configurar Sublime para seguir un formato organizado de código:
 
@@ -84,6 +88,10 @@ Markdown: Es un lenguaje que se utiliza para documentar
 >$ git config --global user.email "john@doe.org"
 
 >Para ver las configuraciones: git config -l
+>Para guardar credenciales: git config --global credential.helper wincred
+
+
+
 
 ###Trabajar con git / compartir proyectos de 3os
 

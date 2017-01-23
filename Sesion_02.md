@@ -26,6 +26,25 @@ Para expresar  números:
   * Hexadecimal: 0 2 3 4 5 6 7 8 9
                   A B C D E F
 
+
+1,333.tofixed(1) = nos devuelve un numero con un decimal, 2 o más o ninguno.
+
+pasar un numero a string toString() o +22222, nos devuleve el numero a string
+
+indexOf() nos busca la posicion de la pasalabra
+
+ejemplo: var nombre = " Hola carles que tal";
+
+nombre.indexOf("carles"); = nos devolverá el numero de la posicion o la ultima posicion si no pasamos nada como parametro
+
+toUpperCase() : nos compara si está en minusculas la palabra
+toLowerCase() : nos compara si está en mayusculas la palabra
+
+slice() : nos devuelve los caracteres concretos que queremos pasando las 2 posiciones mientra la primera es el inicio y el segundo el final
+
+
+
+
 Para expresar los Strings " ", ''
 
 Para expresar los Booleanos: true or false
@@ -140,6 +159,39 @@ for (var i =0; i <100; i++){
   * **FUNCTIONS**
 
 Las funciones siempre devuelven algo, son objetos
+
+Prototype: permite crear un vinculo del propio objeto a una funcion constructora. HERENCIA, emula la POO
+
+Ejemplo: 
+
+function Person( name, location){
+  this.name = name;
+  this.location = location; 
+}
+Person.prototype.sayHi = function(){
+  return "Hi" + this.name
+}
+
+
+for (var prop in me){
+
+  console.log(prop + "=>" + me[prop])
+}
+
+
+// funcion constructora 
+Person.Prototype.name = function(){
+return this.name.toUpperCase();
+
+}
+
+para poder ver los prototipos dentro de un objeto, hay que llamar al 
+objeto.prototype
+
+
+
+var person1 = new Person ("carles", "barcelona");
+
 
 ```javascript
 // Definir una funciona forma 1
@@ -264,3 +316,4 @@ f(); f()
  //si existe en local y se va al padre, con lo cual  acaba 
  //devolviendo 2.
 ```
+

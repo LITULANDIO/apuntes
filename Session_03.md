@@ -11,6 +11,11 @@ Un array puede contener datos primitivos, objetos, true, null, undefined, funcio
 Para ejecutar una función dentro de un Array:
 Ejemplo: a[0]()
 
+Declarar un array: var a = [];
+join() = convierte todos los valores de un array en un string separado por ",-\/||"
+toString() = convierte a metodos/objetos/arrays en string a diferencia de join solo sirve para arrays y para poder darle la opcion de escoger un separador
+
+
 ####Métodos
 
 lenght : averigurar dimension array
@@ -27,6 +32,14 @@ funcion map(), for each, every(), some(), reduce() -- repasar
 
 
 ###OBJECTS
+
+Los objetos quedan identificados por las palabras y los arrays quedan identificados por los numeros.
+
+objeto.valueof() = devuelve el objeto en si
+
+match.random = devuelve un numero 
+
+
 
 var hero={
     beed: 'Turtle',
