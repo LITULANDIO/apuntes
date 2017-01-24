@@ -166,5 +166,6 @@ Para ayudar al usuario intuitivamente a seleccionar mientras escribe
 html-5 + tab --> Se crea toda la estructura html
 tag *numero + tab --> se crea tantos tags por numero escritos
 lorem + tab --> Se nos crea texto de relleno
+instalar el paquete Random everything: para insertar conetenido aleatorio, sobretodo para hacer pruebas!
 
 

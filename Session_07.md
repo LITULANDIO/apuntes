@@ -111,11 +111,98 @@ input: enabled/disabled{
     // Cuando un input se ha activado
 }
 
+tag o .clase #id first-child : Selecciona el primero
+tag o .clase #id first-child +tag: Seleccion el siguinte
 
 
+!important : se carga la fuerza que pudiera tener otra clase que le ganara peso
+a un estilo
+
+###Propiedades para dar estilo
+
+color
+background-color
+font-family
+font-size
+top
+margin
+padding
+buttom
+//.........................
+a tener en cuenta:
+**border-bottom:** sustituye el tag <hr> mediante la especificacion css
+**border-dutter:** marcado en rayas
+**border-radius:** redondear los borders
+**line-height:** cambia la altura de una linea
+**display:** block --> hago que un elemento en linea pase a ser de bloque cambiando su comportamiento
+**display:** inline-block --> hago que 2 elementos de bloque se comporten como dos bloques de linea
+**box-sizing:** border-box/border-content --> se incluyen en la dimension de la suma de margin+padding
+**float**: Rompre el Natural flow y empuja las cajas hacia ariba
+**clear**: both --> Restablece el Natural flow de float
+
+....................................................
+
+###Medida para dar estilos
+
+px: Medida absoluta --> fija
+%: Medida relativa --> adaptable
+
+###Model de caja (box-model)
+
+Elementos de bloque son la mayoría <div>..........
+
+Elementos de linea van marcados por su contenido. ocupan el espacio que les corresponde.
+
+**Características**
+1. Ocupa el 100% del espacio
+2. Característica: Se situan uno debajo del otro
+3. No viene medida por sus dimensiones sino por la suma de todas ellas
+4. Su natural flow es uno debajo de otro
+
+![img](http://learn.shayhowe.com/assets/images/courses/html-css/opening-the-box-model/box-model.png)
+
+Propiedad float en imagen: el conteido puede flotar alrededor, salta al block, por ejemplo en una imagen
+
+Propiedad float con divs: el div pasa de dar el salto de linea a estar en la misma linea 
+
+###Caracteríasticas float
+
+![img](https://librosweb.es/img/css/f0507.gif)
+
+![img](https://librosweb.es/img/css/f0507.gif)
+
+![img](https://librosweb.es/img/css/f0508.gif)
+
+![img](https://librosweb.es/img/css/f0509.gif)
 
 
+###Propiedades de posicionamiento
+
+**position relative:** te activa las opciones top/left/right/buttom
+**position absolute:** Se comporta parecido al float, sale del natural flow, la referencia viene dada por el contenedor más cercano iendo hacia ariba al position relative, si no lo hay se irá al body
+**position fixed**: sale del natural flow, se fija en un estado 
 
 
+Live reload --> Descargar pluggin para chrome (colores)
+link : https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei
+**En Sublime** hay que instalar un pluggin para relacionar Live reload 
+ctrl+shift+p -->install package y buscar Live reload
 
+
+###----------¡¡¡¡¡¡¡¡¡¡¡¡¡IMPORTANT!!!!!!!!!!!!!------------
+
+####Javascript page(28-29)
+
+functions local scoop/ global scoop
+closures/ prototype/ hight order arrays
+TDD: Katas
+
+####HTML5 page(70)
+Aplicar un marcado lo más semántico posible
+¡Forms
+
+####CSS3 page(82-83)
+
+Selectores
+**BOX MODEL -->SANT GRIAL**
 
