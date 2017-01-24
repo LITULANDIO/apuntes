@@ -1,5 +1,5 @@
 #Sesion 07 -- Skylab Coders --
-###Lunes 24 de Enero del 2016
+###Martes 24 de Enero del 2016
 
 ###CSS
 
