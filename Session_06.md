@@ -22,11 +22,24 @@ No deberiamos utilizar los tags:
 **<br>** 
 **<hr>**
 
+
+
+
 **Elementos de bloque:** son todos los <h1...h6>, <p> y <div>, y todos los elementos que nos permiten ocupar bloques, <aside>, <header>, main, 
 
 Tags Principales de bloque:
 **Tag DIV:**  Caja --> marcado menos semántico
 **Tag SPAN:** Se usa mayormente para diferenciar similar o igual que el div
+
+###TEMA IMAGENES --> IMPORTANT
+
+**Tag <FIGURE>** se utiliza para corresponder a imágenes semánticas, es decir cuando una imagen corresponde a un texto anexo a esa imagen, si la imagen es decorativa, es decir si cambiasémos la imagen y no afecta al sentido semántico de la web podemos utilizar un DIV-SECTION
+
+**Imagen decorativa:** cargamos la imagen en el css
+**Imagen con aspecto semántico:** utilizamos el tag <img src="">
+
+Tag <SECTION> --> es el más habitual
+
 
 **Elementos de linea:** todos los que pertencen dentro de un bloque **<em> <strong>
 
@@ -148,6 +161,10 @@ Para ayudar al usuario intuitivamente a seleccionar mientras escribe
 ```
 
 
+###SUBLIME EN HTML
 
+html-5 + tab --> Se crea toda la estructura html
+tag *numero + tab --> se crea tantos tags por numero escritos
+lorem + tab --> Se nos crea texto de relleno
 
 
