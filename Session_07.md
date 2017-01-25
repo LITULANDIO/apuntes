@@ -1,5 +1,5 @@
 #Sesion 07 -- Skylab Coders --
-###Martes 24 de Enero del 2016
+###Martes-Miercoles 24/25 de Enero del 2016
 
 ###CSS
 
@@ -125,7 +125,7 @@ background-color
 font-family
 font-size
 top
-margin
+¡¡margin!! Por defecto en navegador importa unos espacios entre todos los tags, para solucionar si nos interesa que los márgenes sean continuados basta con insertar la propiedad margin: 0;
 padding
 buttom
 //.........................
@@ -139,6 +139,13 @@ a tener en cuenta:
 **box-sizing:** border-box/border-content --> se incluyen en la dimension de la suma de margin+padding
 **float**: Rompre el Natural flow y empuja las cajas hacia ariba
 **clear**: both --> Restablece el Natural flow de float
+**flexbox**: 
+**font-face** --> introducir fuentes nuevas,para hacerlo bien habría que irse a google-font y se descargaria un archivo externo
+Hay efectos que se tendrán que incluir para que se pueda visualizar en todos los navegadores
+**box-shadow:** Para aplicar sombras a las cajas
+**text-shodow**- Para aplicar sombra a los textos
+**z-indez:** modelo de capas -1 por detras de un bloque, +1 por delante de otro bloque
+
 
 ....................................................
 
@@ -183,10 +190,41 @@ Propiedad float con divs: el div pasa de dar el salto de linea a estar en la mis
 **position fixed**: sale del natural flow, se fija en un estado 
 
 
-Live reload --> Descargar pluggin para chrome (colores)
+Colorzila --> Descargar pluggin para chrome (colores): 
+WhatFont --> Descargar pluggin para chrome (fuentes)
+Live reload --> Para sincronizar los cambios en tiempo real con Sublime
 link : https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei
 **En Sublime** hay que instalar un pluggin para relacionar Live reload 
 ctrl+shift+p -->install package y buscar Live reload
+
+###Propiedad Flexbox del padre
+
+"Las reglas cambian", tener la posibilidad de trabajar con elementos flexibles, sobretodo va bien para hacer diseño responsive.
+
+Es una manera para decirle al css que pueda adaptarse el diseño en otros dispositivos. Está pensado sobretodo dentro de bloques
+
+Display: flex; -->cambia el eje vertical a horizontal
+flex-direction: row; --> defino la direccion
+flex-wrap: --> salto de linea en funcion del espacio de las cajas y la pantalla para adaptarse.
+justify-content: space-around/end/center --> centrar y espaciar los elementos
+align-items: center/baseline --> centra el texto que se encuentra dentro de las cajas
+align-content: space around, between; 
+
+###Propiedades del hijo
+
+order: 2; --> Cambiar el orden y la distribución de los bloques
+align-self: -->  center/end posicionar a los elementos de bloque hijos.
+
+
+![img](https://skylabcoders.github.io/bootcamp-winter2017/img/flexbox.png)
+
+Mirar: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+###Diseño Responsive
+
+####MEDIA QUERY
+
+Reglas css sólo se van a aplicar segun el tamaño de la pantalla (segun el dispositivo)
 
 
 ###----------¡¡¡¡¡¡¡¡¡¡¡¡¡IMPORTANT!!!!!!!!!!!!!------------
@@ -205,4 +243,5 @@ Aplicar un marcado lo más semántico posible
 
 Selectores
 **BOX MODEL -->SANT GRIAL**
+
 
