@@ -146,7 +146,25 @@ Hay efectos que se tendrán que incluir para que se pueda visualizar en todos lo
 **text-shodow**- Para aplicar sombra a los textos
 **z-indez:** modelo de capas -1 por detras de un bloque, +1 por delante de otro bloque
 
+--MENUS--
+**inline-block**: nos pone un <ul> en linea para hacer menu
+**list-style: none**: nos quita los puntos de una lista desordenada <ul>
+**a:hover** --> cuando pasas el raton encima de una caja (link)
+**a:visited** --cambiar el estado de los enlaces visitados
+**text-decoration: none** --> eliminar la linea de los links
+**background-image** --> Insertar multiples imagenes a la vez
+"Si juntamos los tags en la misma linea no, nos hará un salto de linea por ejemplo <div><footer>"
 
+--RESPONSIVE-- 
+Utilizamos la regla MEDIA QUERY (al final de las lineas css)
+@media (max-width:900px){ --> se especifica en ancho maximo
+main>*{
+    float: none;
+    width:100%
+}    
+}
+
+**caiuse.com**--> Se analiza el comportamiento que tendrán los navegadores
 ....................................................
 
 ###Medida para dar estilos
@@ -203,17 +221,17 @@ ctrl+shift+p -->install package y buscar Live reload
 
 Es una manera para decirle al css que pueda adaptarse el diseño en otros dispositivos. Está pensado sobretodo dentro de bloques
 
-Display: flex; -->cambia el eje vertical a horizontal
-flex-direction: row; --> defino la direccion
-flex-wrap: --> salto de linea en funcion del espacio de las cajas y la pantalla para adaptarse.
-justify-content: space-around/end/center --> centrar y espaciar los elementos
-align-items: center/baseline --> centra el texto que se encuentra dentro de las cajas
-align-content: space around, between; 
+**Display: flex**; -->cambia el eje vertical a horizontal
+**flex-direction**: row; --> defino la direccion
+**flex-wrap**: --> salto de linea en funcion del espacio de las cajas y la pantalla para adaptarse.
+**justify-content**: space-around/end/center --> centrar y espaciar los elementos
+**align-items**: center/baseline --> centra el texto que se encuentra dentro de las cajas
+**align-content**: space around, between; 
 
 ###Propiedades del hijo
 
-order: 2; --> Cambiar el orden y la distribución de los bloques
-align-self: -->  center/end posicionar a los elementos de bloque hijos.
+**order: 2;** --> Cambiar el orden y la distribución de los bloques
+**align-self:** -->  center/end posicionar a los elementos de bloque hijos.
 
 
 ![img](https://skylabcoders.github.io/bootcamp-winter2017/img/flexbox.png)
