@@ -52,6 +52,10 @@ GRID --> Es un sistema de 12 columnas
 
 El atributo **overflow: hidden** --> nos permite ocultar texto que sobrepase de un bloque. Para cortarlo de una manera elegante sería..: **elipsis**
 
+###Sublime
+bs3 css cargar el css en Sublime
+bs3 js cargar js / aparte añadir jquery 2.x la más extendida 
+
 ####Ejercicios prácticos: 103-104
 
 bs3.css carga el css de boots en Sublime
