@@ -31,7 +31,7 @@ El sistema más importante para manejar Bootstrap es GRID
 
 GRID --> Es un sistema de 12 columnas 
 
-![grid](img/grid.png)
+![grid](APUNTES/img/grid.png)
 
 **Jerarquia:** .container
                 .row (abrimos un nuevo grid)
@@ -48,7 +48,7 @@ GRID --> Es un sistema de 12 columnas
 **La propiedad visble-xs** for exemple lo que nos permite es darle visibilidad en el formato que especifiquemos.
 **La propiedad hidden-x** for exemple lo que nos permite es ocultar un elemento en el formato que especifiquemos.
 
-![grid](img/responsive.png)
+![grid](APUNTES/img/responsive.png)
 
 El atributo **overflow: hidden** --> nos permite ocultar texto que sobrepase de un bloque. Para cortarlo de una manera elegante sería..: **elipsis**
 
