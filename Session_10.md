@@ -21,3 +21,8 @@ Para que el navegador pueda interpretar Sass utilizaremos Scoat, añadiendo un p
 
 **[ejemplo="elem"]** --> el interior de un corchete se encuentra un atributo con su valor
 
+
+---------------------------------------
+La idea es crear un archivo sass y dentro crear un stylus.scss, abiremos el programa scoop importamos el archivos scss y el archivo css, 
+Creamos un mine.scss --> estructura básica, luego podemos crear otros archivos scss que se puedan importar en el mine, si son estilos indepndientes de mine se creará un _primary.scss y en el mine pondremos @import('primary');_
+
