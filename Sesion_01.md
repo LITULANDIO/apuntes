@@ -72,6 +72,7 @@ Markdown: Es un lenguaje que se utiliza para documentar
 9. Para comitear los cambios: **git commit -m "index.html created"**
 10. Para ver el estado del rep: **git status**
 11. Para ver un listado de commits: **git log**
+12. Para añadir pequeños cambios y comitear a la vez **git commit -am "info"**
 
 ###Local Repository
 
@@ -80,7 +81,7 @@ Markdown: Es un lenguaje que se utiliza para documentar
 3. Para comprobar que se ha enlazado bien utilizamos el comando: **git remote -v**
 4. Para sincronizar los repositorios: **git push -u origin master**
 5. Las siguientes veces haciendo: **git push** es suficiente
-5. Insertaremos nuestro nombre de usuario y contraseña
+5. Insertaremos nuestro nombre de usuario y contraseñagit 
 
 ###Configurar github
 
