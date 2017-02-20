@@ -29,9 +29,6 @@ Transform --> nos permite encadenar
 
 throw 2 --> es una funcion  que recibe un string de lectura después de haverse transformado
 
-
-
-
 npm install -g nodemon
 npm insttall npm
 mkdir demo --> creamos un directorio
