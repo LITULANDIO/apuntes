@@ -1,10 +1,10 @@
-#Sesion 05 -- Skylab Coders --
-###Viernes 20 de Enero del 2016
+# Sesion 05 -- Skylab Coders --
+### Viernes 20 de Enero del 2016
 
 
-##JAVASCRIPT - 
+## JAVASCRIPT - 
 
-###1.- Unit Testings
+### 1.- Unit Testings
 
 Comprueba que el código funciona correctamente.
 

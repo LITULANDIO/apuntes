@@ -1,11 +1,11 @@
-#Sesion 11/12 -- Skylab Coders --
-###Lunes - Martes 30/31 de Enero del 2016
+# Sesion 11/12 -- Skylab Coders --
+### Lunes - Martes 30/31 de Enero del 2016
 
-###J-QUERY
+### J-QUERY
 
 **Trabajar Javascript en el navegador*
 
-###BOM --> NIVEL + ALTO
+### BOM --> NIVEL + ALTO
 
 Todas aquellas propiedades que definen un navegador es el BOM --> objeto window, está formado por todos los objetos que están fuera del documento cargado 
 
@@ -25,7 +25,7 @@ clearTimeout() --> Para la ejecución
 setInterval() --> Cada ciertos segundos se iráejecutando el código que indiquemos
 clearInterval() --> Para la ejecución
 
-###DOM
+### DOM
 
 ![dom](https://raw.githubusercontent.com/juanmaguitar/javascript-notes/master/markdown-en/11-browser-environment/img/dom.png)
 
@@ -64,7 +64,8 @@ El método has --> "tiene" $("div").has("p").lenght --> Devuelve cuantos parrafo
 
 .not --> hace un filtro y devuelve aquellos "que no" tengan....
 
-###Pseudoselectores FORM
+### Pseudoselectores FORM
+
 (form:input) --> Seleciona todos los inputs de un fomulario
 (form:checked) --> Revisar si están las casillas check verificadas
 (form:selected) --> Verificar si se han seleccionado radio but/select
@@ -82,7 +83,7 @@ input:button
 input:image
 input:file
 
-###OBTENER INFO
+### OBTENER INFO
 
 **.html()** --> Introduce un tag, un elemento, texto, al elemento seleccionado del html, Ejemplo: $("h1").html("I love coder");
 **.text()** --> Establece/lee contenido a elementos de tipo texto seleccionado
@@ -96,7 +97,7 @@ $("form input").val() --> **El método val()** nos devuelve el input de un label
 Para poder acceder a una posición de un elemento de un formulario utilizaremos 
 **eq[0]** (será el índice) --> para respetar jquery no utilizaremos directamente[0]
 
-###MOVER / COPIAR 
+### MOVER / COPIAR 
  
  Efecto inverso .append, .appendTo
 
@@ -112,7 +113,7 @@ $("#id").before()
 .insertAfter() --> Inserta el elemento después de.....
 .after
 
-###CLONAR ELEMENTOS
+### CLONAR ELEMENTOS
 **.clone().appendTo** --> Clona el elemento seleccionado y lo inserta 
 $(".projects").clone().appendTo(".projects")});
 
@@ -122,14 +123,14 @@ http://jsfiddle.net/juanma/pp3h1hpo/
 
 $.trim() --> Es un método para limpiar los espacios de una selección.
 
-###Métodos jquery:
+### Métodos jquery:
 
 $.each() --> método estátio utilizar para recorrer un objeto, un array
 $("elemento").each() --> Recorre una seleccion jquery
 
 http://learn.jquery.com/using-jquery-core/utility-methods/
 
-###Borrar elementos
+### Borrar elementos
 
 **elimina propiedades** -->.remove()
 
@@ -152,7 +153,7 @@ $("li").each( function(index, elem) {
 
 
 
-###Métodos
+### Métodos
 .stopInmediatePropagation() --> para el bubbling hacia ariba y los laterales
 .stopPropagation() --> Para el bubbling hacia ariba
 .preventDefault() --> paraliza cualquier funcionamiento, previene antes de...
@@ -162,7 +163,7 @@ $("li").each( function(index, elem) {
 
 
 
-###EVENTS
+### EVENTS
 
 **Estructura:**
 $()on("event", function(){
@@ -174,17 +175,17 @@ Cuando se hace click se hace Bubbling hacia ariba,
 $().on()
 el this apunta al elemento seleccionado, this = e.target
 
-###EVENTOS DE ZONAS
+### EVENTOS DE ZONAS
 blur:
 focus: situar el foco en una zona 
 focusin: 
 focusout:
-###EVENTOS DE VENTANA 
+### EVENTOS DE VENTANA 
 load: 
 resize: 
 scroll:
 unload:
-###EVENTOS DE RATON
+### EVENTOS DE RATON
 click: 
 dblclick: 
 mousedown:
@@ -194,16 +195,16 @@ mouseover:
 mouseout:
 mouseenter:
 mouseleave:
-###EVENTOS DE FORM
+### EVENTOS DE FORM
 change: cada vez que se introduce algo en un input y se sale pasan cosas, select, 
 submit, 
-###EVENTOS DE TECLADO
+### EVENTOS DE TECLADO
 keydown, 
 keypress, 
 keyup, 
 error: capturar el error
 
-###JSON
+### JSON
 
 JSON no puede usarse por si sólo sin hace una previa trasnformació.
 
@@ -216,7 +217,7 @@ JSON.stringify({ breed: 'Turtle', occupation: 'Ninja' });
 "{"breed":"Turtle","occupation":"Ninja"}"
 
 
-###AJAX
+### AJAX
 
 Petición asíncrona al servidor (sin tener que recargar la página)
 

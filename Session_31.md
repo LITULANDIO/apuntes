@@ -1,7 +1,7 @@
-#Sesion 29-- Skylab Coders --
-###Miércoles 01 de Marzo del 2017
+# Sesion 29-- Skylab Coders --
+### Miércoles 01 de Marzo del 2017
 
-###MONGOOSE
+### MONGOOSE
 Es un paquete de modelado de objetos
 
 Ventajas: 
@@ -26,7 +26,7 @@ npm install mongoose
 nombre / apellidos / profesion / edad
 ```
 
-###SISTEMA DE LOGGIN
+### SISTEMA DE LOGGIN
 
 - passport --> es un middlware
 - pluggin de mongoose --> nos hace la encriptación de la password del usuario, dará una serie de métodos para la validación.
@@ -39,7 +39,7 @@ npm install cookie-parser --save
 ```
 app.use --> usamos middleware
 
-###Project:
+### Project:
 
 views --> pug --> cargar bootstrap/jquery y nuestro css en la ultima linea
 public --> css/js/html

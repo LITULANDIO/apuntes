@@ -1,7 +1,7 @@
-#Sesion 12 -- Skylab Coders --
-###Miercoles 1 de Febrero del 2017
+# Sesion 12 -- Skylab Coders --
+### Miercoles 1 de Febrero del 2017
 
-###APIS
+### APIS
 
 Es un standard para facilitar los datos a un servidor, compartiendo una serie de urls donde existe información y se puede acceder a ella, mientras podemos filtrar propiedades para recibir información concreta.
 

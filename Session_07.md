@@ -1,13 +1,13 @@
-#Sesion 07 -- Skylab Coders --
-###Martes-Miercoles 24/25 de Enero del 2016
+# Sesion 07 -- Skylab Coders --
+### Martes-Miercoles 24/25 de Enero del 2016
 
-###CSS
+### CSS
 
 -Cascading
 -Styles 
 -Sheets
 
-###3 Maneras de dar estilo a nuestra página web:
+### 3 Maneras de dar estilo a nuestra página web:
 
 1. Estilo Interno:
 ```html
@@ -67,11 +67,11 @@ Podemos seleccionar por #id .class o por tipo/tags <etiqueta>
 id : Es para diferenciar zonas únicas
 class: Se pueden repetir en diferentes zonas, está pensado para ser compartida
 
-###Seleccion por hijos 
+### Seleccion por hijos 
 tag > .class : Selecciona estilo a los hijos directos del tag
 
 
-###Seleccion por hermanos
+### Seleccion por hermanos
 .class ~ p{
     //Se le da estilo a todos los hermanos siguientes
 }
@@ -80,7 +80,7 @@ tag > .class : Selecciona estilo a los hijos directos del tag
     // Se le da estilo al tag/hermano siguiente
 }
 
-###Selectores avanzados
+### Selectores avanzados
 
 **Stylus de links <a href=""></a>**
 a[target]: Todos los enlaces que le ponga el atributo target= Se abriran en una nueva ventana, y se le aplicarán estilo a los que tengan el atributo target
@@ -89,7 +89,7 @@ a[href*=twiter] : Se le dara estilo a todos los enlaces que tengan escrito twite
 
 a[href$=".pdf"] : Se le dará estilo a todos los enlaces que tengan la extensión .pdf, .doc.....
 
-###Selección por pseudoclase
+### Selección por pseudoclase
 
 - Estados de un link:
 
@@ -118,7 +118,7 @@ tag o .clase #id first-child +tag: Seleccion el siguinte
 !important : se carga la fuerza que pudiera tener otra clase que le ganara peso
 a un estilo
 
-###Propiedades para dar estilo
+### Propiedades para dar estilo
 
 color
 background-color
@@ -167,7 +167,7 @@ main>*{
 **caiuse.com**--> Se analiza el comportamiento que tendrán los navegadores
 ....................................................
 
-###Medida para dar estilos
+### Medida para dar estilos
 
 px: Medida absoluta --> fija
 %: Medida relativa --> adaptable
@@ -190,7 +190,7 @@ Propiedad float en imagen: el conteido puede flotar alrededor, salta al block, p
 
 Propiedad float con divs: el div pasa de dar el salto de linea a estar en la misma linea 
 
-###Caracteríasticas float
+### Caracteríasticas float
 
 ![img](https://librosweb.es/img/css/f0507.gif)
 
@@ -201,7 +201,7 @@ Propiedad float con divs: el div pasa de dar el salto de linea a estar en la mis
 ![img](https://librosweb.es/img/css/f0509.gif)
 
 
-###Propiedades de posicionamiento
+### Propiedades de posicionamiento
 
 **position relative:** te activa las opciones top/left/right/buttom
 **position absolute:** Se comporta parecido al float, sale del natural flow, la referencia viene dada por el contenedor más cercano iendo hacia ariba al position relative, si no lo hay se irá al body
@@ -215,7 +215,7 @@ link : https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcged
 **En Sublime** hay que instalar un pluggin para relacionar Live reload 
 ctrl+shift+p -->install package y buscar Live reload
 
-###Propiedad Flexbox del padre
+### Propiedad Flexbox del padre
 
 "Las reglas cambian", tener la posibilidad de trabajar con elementos flexibles, sobretodo va bien para hacer diseño responsive.
 
@@ -228,7 +228,7 @@ Es una manera para decirle al css que pueda adaptarse el diseño en otros dispos
 **align-items**: center/baseline --> centra el texto que se encuentra dentro de las cajas
 **align-content**: space around, between; 
 
-###Propiedades del hijo
+### Propiedades del hijo
 
 **order: 2;** --> Cambiar el orden y la distribución de los bloques
 **align-self:** -->  center/end posicionar a los elementos de bloque hijos.
@@ -238,26 +238,26 @@ Es una manera para decirle al css que pueda adaptarse el diseño en otros dispos
 
 Mirar: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
-###Diseño Responsive
+### Diseño Responsive
 
-####MEDIA QUERY
+#### MEDIA QUERY
 
 Reglas css sólo se van a aplicar segun el tamaño de la pantalla (segun el dispositivo)
 
 
-###----------¡¡¡¡¡¡¡¡¡¡¡¡¡IMPORTANT!!!!!!!!!!!!!------------
+### ----------¡¡¡¡¡¡¡¡¡¡¡¡¡IMPORTANT!!!!!!!!!!!!!------------
 
-####Javascript page(28-29)
+#### Javascript page(28-29)
 
 functions local scoop/ global scoop
 closures/ prototype/ hight order arrays
 TDD: Katas
 
-####HTML5 page(70)
+#### HTML5 page(70)
 Aplicar un marcado lo más semántico posible
 ¡Forms
 
-####CSS3 page(82-83)
+#### CSS3 page(82-83)
 
 Selectores
 **BOX MODEL -->SANT GRIAL**

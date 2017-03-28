@@ -1,11 +1,11 @@
-#Sesion 22-23-- Skylab Coders --
-###Jueves/Viernes 16-17 de Febrero del 2017
+# Sesion 22-23-- Skylab Coders --
+### Jueves/Viernes 16-17 de Febrero del 2017
 
-###ES2015
+### ES2015
 
 Evitar tareas repetitivas, mejorar el código
 
-###CARACTERÍASTICAS
+### CARACTERÍASTICAS
 
 1. Arrow functions ( manera más corta de hacer funciones, son siempre anónimas =>)
 2. THIS -->
@@ -91,7 +91,7 @@ var [A,B,C,D,E] = [1,2,3,4,5]
 **Rest Operator**
 ...rest
 
-###Promise
+### Promise
 
 Nos permite encapsular una operación futura, como si se tratara de una operación asíncrona. 
 
@@ -119,7 +119,7 @@ promise.race -->
 npm browefy -g -->
 npm watchify -g -->  
 
-###Métodos nuevos de Arrays
+### Métodos nuevos de Arrays
 
 **Array.of**(2,2,2,) --> convierte un array separado por comas
 

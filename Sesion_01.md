@@ -1,13 +1,13 @@
-#Sesion 01 -- Skylab Coders --
-###Lunes 16 de Enero del 2016
+# Sesion 01 -- Skylab Coders --
+### Lunes 16 de Enero del 2016
 
-##Front End                         
+## Front End                         
 
 * HTML -->Contenido
 * CSS -->Design
 * JS --> Comportamiento
 
-##Back End
+## Back End
 
 * Phyton
 * Java
@@ -16,7 +16,7 @@
 
 **Editor de texto** *recomendado para usar*: **Sublime**
 
-###Acceso a sitios de Sublime con atajo de teclas:
+### Acceso a sitios de Sublime con atajo de teclas:
 
 * CTRL + K +B = Mostrar Barra Sidebar
 * CTRL + P = Buscar archivos
@@ -39,25 +39,25 @@ Configurar Sublime para seguir un formato organizado de código:
        * SublimeLinter-contrib-standard
        *  StandardFormat
 
-###Peculiaridades al escribir un html:
+### Peculiaridades al escribir un html:
 
 tag+ *(numero) : Introduce tags automaticamente
 
 Markdown: Es un lenguaje que se utiliza para documentar
 
-###CMR
+### CMR
 
 * Crear archivo vacio: touch
 * Crear directorio: mkdir
 
 
 
-##GIT HUB : Control de versiones 
+## GIT HUB : Control de versiones 
 
 1. Creamos una carpeta, en ella crearemos el repsitorio donde se guardará y gestionará el proyecto. *( Nos permite crear repositorios remotos)*
 2. Commit: Establecer una nueva versión del proyecto *(registrar los cambios)*
 
-###Working copy
+### Working copy
 
 3. Para inicializar un repositorio: **git init**
 4. Para eliminar el repositorio: **rm -rf git**
@@ -65,7 +65,7 @@ Markdown: Es un lenguaje que se utiliza para documentar
 6. Para saber si existe un repositorio en un proyecto con el comando **git -l**
 7. Creamos el archivo en Sublime
 
-###Staying Area
+### Staying Area
 
 8. Para registrar un nuevo archivo: **git add index.html**
 9. Para registrar todo: **git add** --all o **git add ***
@@ -74,7 +74,7 @@ Markdown: Es un lenguaje que se utiliza para documentar
 11. Para ver un listado de commits: **git log**
 12. Para añadir pequeños cambios y comitear a la vez **git commit -am "info"**
 
-###Local Repository
+### Local Repository
 
 1. Accedemos a la cuenta GITHUB y creamos un nuevo repositorio con el mismo nombre en local.
 2. luego hacemos un copy/past de la url: **git remote add origin** https://github.com/LITULANDIO/project_1.git y la pegaremos en la consola cmd de git.
@@ -83,7 +83,7 @@ Markdown: Es un lenguaje que se utiliza para documentar
 5. Las siguientes veces haciendo: **git push** es suficiente
 5. Insertaremos nuestro nombre de usuario y contraseñagit 
 
-###Configurar github
+### Configurar github
 
 >$ git config --global user.name "John Doe"
 >$ git config --global user.email "john@doe.org"
@@ -94,7 +94,7 @@ Markdown: Es un lenguaje que se utiliza para documentar
 
 
 
-###Trabajar con git / compartir proyectos de 3os
+### Trabajar con git / compartir proyectos de 3os
 
 Para trabajar en local utilizaremos **clone download** y se nos bajará todos los archivos en la propia máquina.
 

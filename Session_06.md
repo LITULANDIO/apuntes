@@ -1,5 +1,5 @@
-#Sesion 06 -- Skylab Coders --
-###Lunes 21 de Enero del 2016
+# Sesion 06 -- Skylab Coders --
+### Lunes 21 de Enero del 2016
 
 
 LINK para hacer katas:
@@ -7,7 +7,7 @@ LINK para hacer katas:
 
 Otro concepto de testear código: **Koans**
 
-##HTML
+## HTML
 
 Lenguaje de marcas: 
 
@@ -47,7 +47,7 @@ Añadir comentarios: <!--aquí va el comentario -->
 
 Tags que nos permiten definiir la estructura de la página:
 
-###Estructura HTML
+### Estructura HTML
 ![Esquema](http://www.developer.com/imagesvr_ce/3977/Figure01.png)
 
 
@@ -59,11 +59,11 @@ tag <nav> cualquier bloque de enlaces
 
 En Sublime para poder crear toda la estructura básica es con **html-5** +tab
 
-###Para saber cuando utilizar un tag u otro:
+### Para saber cuando utilizar un tag u otro:
 
 ![Esquema](http://html5doctor.com/downloads/h5d-sectioning-flowchart.png)
 
-###FORMS
+### FORMS
 
 "method" Métodos principales GET, POST
 "action" la url donde se enviarán los datros del cliente
@@ -79,22 +79,22 @@ Botón para enviar datos:
 Otra manera de crear un botón es creando el tag <button>Boton</button>
 Diferiencias: El comportamiento de input es el mismo de button,pero da más margen de poder darle estilos.
 
-###Textarea
+### Textarea
 
 Para introducir texto <textarea></textarea>
 
-###Radiobutton
+### Radiobutton
 ```html
 <input type="radio" name="day" value="Friday" checked> Friday
 <input type="radio" name="day" value="Saturday"> Saturday
 ```
-###Checkbox
+### Checkbox
 ```html
 <input type="checkbox" name="day" value="Friday" checked> Friday
 <input type="checkbox" name="day" value="Saturday"> Saturday
 <input type="checkbox" name="day" value="Sunday"> Sunday
 ```
-###Select
+### Select
 ```html
 <select name="day">
   <option value="Friday" selected>Friday</option>
@@ -103,7 +103,7 @@ Para introducir texto <textarea></textarea>
 </select>
 ```
 
-###Multiple
+### Multiple
 
 ```html
 <select name="day" multiple>
@@ -112,11 +112,11 @@ Para introducir texto <textarea></textarea>
   <option value="Sunday">Sunday</option>
 </select>
 ```
-###Seleccionar un archivo
+### Seleccionar un archivo
 ```html
 <input type="file" name="file">
 ```
-###Enviar información sin que el usuario la vea
+### Enviar información sin que el usuario la vea
 ```html
 <input type="hidden" name="tracking-code" value="abc-123">
 ```
@@ -161,7 +161,7 @@ Para ayudar al usuario intuitivamente a seleccionar mientras escribe
 ```
 
 
-###SUBLIME EN HTML
+### SUBLIME EN HTML
 
 html-5 + tab --> Se crea toda la estructura html
 tag *numero + tab --> se crea tantos tags por numero escritos

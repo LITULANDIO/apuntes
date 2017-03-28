@@ -1,7 +1,7 @@
-#Sesion 10 -- Skylab Coders --
-###Viernes 27 de Enero del 2016
+# Sesion 10 -- Skylab Coders --
+### Viernes 27 de Enero del 2016
 
-###Sass
+### Sass
 
 Es una clase de pseudocódigo
 

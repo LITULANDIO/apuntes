@@ -1,10 +1,10 @@
-#Sesion 03 -- Skylab Coders --
-###Miercoles 18 de Enero del 2016
+# Sesion 03 -- Skylab Coders --
+### Miercoles 18 de Enero del 2016
 
 
-##JAVASCRIPT
+## JAVASCRIPT
 
-###ARRAYS
+### ARRAYS
 
 Un array puede contener datos primitivos, objetos, true, null, undefined, funciones, otros arrays.
 
@@ -16,7 +16,7 @@ join() = convierte todos los valores de un array en un string separado por ",-\/
 toString() = convierte a metodos/objetos/arrays en string a diferencia de join solo sirve para arrays y para poder darle la opcion de escoger un separador
 
 
-####Métodos
+#### Métodos
 
 lenght : averigurar dimension array
 push : añade un elemento en la ultima posicion del array
@@ -31,7 +31,7 @@ shift : elimina la primera posicion del array
 funcion map(), for each, every(), some(), reduce() -- repasar
 
 
-###OBJECTS
+### OBJECTS
 
 Los objetos quedan identificados por las palabras y los arrays quedan identificados por los numeros.
 
@@ -84,6 +84,6 @@ var o = factory('one'); // Llamo a la función y me devuelve el objeto
 Esquema: **izquierda:** objetos/funciones/ arrays || **derecha:** datos primitivos: Strings; numbers, boolean
 ![Esquema: izquierda: objetos/funciones/ arrays || derecha: datos primitivos: Strings; numbers, boolean](https://skylabcoders.github.io/bootcamp-winter2017/img/pass-by-reference-vs-pass-by-value-animation.gif)
 
-###Expresiones Regulares
+### Expresiones Regulares
 
 Para crear una expresion regular podemos utilizar una funcion constructora

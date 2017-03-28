@@ -1,8 +1,8 @@
-#Sesion 09 -- Skylab Coders --
-###Jueves 26 de Enero del 2016
+# Sesion 09 -- Skylab Coders --
+### Jueves 26 de Enero del 2016
 
 
-###BOOTSTRAP
+### BOOTSTRAP
 
 Es un framework para el css
 
@@ -16,7 +16,7 @@ En el caso de bootstrap la version comprimida es: bootstrap.min.css
 
 Usaremos templates --> plantillas para partir de una base, y en función de nuestras necesidades iremos adaptando nuestro diseño.
 
-###Optimizar la carga de la aplicación
+### Optimizar la carga de la aplicación
 
 CDN --> La ventaja que tiene es que el usuario podrá cargar la web en el servidor que más cerca se encuentre. Si recomendable par proyectos pequeños.
 Otra ventaja es que si es recurrente el uso de CDN se almacena en la cache.
@@ -52,11 +52,11 @@ GRID --> Es un sistema de 12 columnas
 
 El atributo **overflow: hidden** --> nos permite ocultar texto que sobrepase de un bloque. Para cortarlo de una manera elegante sería..: **elipsis**
 
-###Sublime
+### Sublime
 bs3 css cargar el css en Sublime
 bs3 js cargar js / aparte añadir jquery 2.x la más extendida 
 
-####Ejercicios prácticos: 103-104
+#### Ejercicios prácticos: 103-104
 
 bs3.css carga el css de boots en Sublime
 prettify women
