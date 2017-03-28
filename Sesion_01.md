@@ -100,7 +100,7 @@ Para trabajar en local utilizaremos **clone download** y se nos bajará todos lo
 
 Para trabajar en remoto desde github utilizaremos **Fork**
 
-##Esquema de Git
+## Esquema de Git
 
 ![Esquema](https://skylabcoders.github.io/bootcamp-winter2017/img/basic-remote-workflow.png)
 

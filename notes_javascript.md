@@ -1,4 +1,4 @@
-###Bucle forEach --> recorrer arrays
+### Bucle forEach --> recorrer arrays
 
 ```javascript
 var list = [3,4,5,6,7,8,4] //declaración i inicialización de un array
@@ -16,7 +16,7 @@ En el indice: 5 el valor es: 8 y esto es el array completo: 3,4,5,6,7,8,4
 En el indice: 6 el valor es: 4 y esto es el array completo: 3,4,5,6,7,8,4
 ```
 
-###- every() Devuelve true si todos los elementos cumplen la condicion
+### - every() Devuelve true si todos los elementos cumplen la condicion
 ```javascript
 var nums = [3,4,5,6,7,8,11]
 
@@ -28,7 +28,7 @@ false // devuelve false ya no todos son más pqueños.
 ```
 
 
-###- some() Devuelve true si alguno de los elementos cumple con la condicion sino será false
+### - some() Devuelve true si alguno de los elementos cumple con la condicion sino será false
 ```javascript
 var nums = [3,4,5,6,7,8,11]
 
@@ -39,7 +39,7 @@ nums.every(sums);
 true // devuelve true ya que hay uno que no es más pequeño.
 ```
 
-###METODOS STRING
+### METODOS STRING
 
 **length**
 Para saber cuantos carácteres:

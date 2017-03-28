@@ -1,6 +1,6 @@
-#My project super cool
+# My project super cool
 
-##Description
+## Description
 
 This *super projects* will be apple to detect **human vocie** and will write the proper text in the device.
 
