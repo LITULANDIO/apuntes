@@ -1,7 +1,7 @@
-#Sesion 29-- Skylab Coders --
-###Lunes 27 de Febrero del 2017
+# Sesion 29-- Skylab Coders --
+### Lunes 27 de Febrero del 2017
 
-###MONGO DB
+### MONGO DB
 
 **Relacional**(asegura la integridad de los datos) - **No relacional**(asegura alta perfomance en la plataforma-más rapidez)
 En vez de habalar de tablas hablamos de colecciones
@@ -25,7 +25,7 @@ Per conectar:
 Base de datos en mongo está compuesta de una colección, y en una colección se compone de documentos, y en cada documento se encuentran los campos.
 
 
-###Comandos básicos
+### Comandos básicos
 - **show dbs**: muestra las dbs que tenemos 
 - **use test_db**: Se  crea una base de datos/ si está creada cambia la base de datos por la especificada
 - **db.users.insert**( { name: 'carles', location: 'barcelona' } ) : creamos una coleccion llamada users e insertamos un campo
@@ -49,7 +49,7 @@ mongoimport --db test --collection restaurants --drop --file "C:\Users\carle\Des
 const myrestaurantsCursor = db.restaurants.find(); --> podemos guardar en una variable 
 myrestaurantCursor.next() --> pasar al siguiente
 
-###Operadores de comparación
+### Operadores de comparación
 - $gt --> grater than (mayor que)
 - $gte --> mayor o igual que
 - $lt --> less than (menor que)
@@ -61,7 +61,7 @@ myrestaurantCursor.next() --> pasar al siguiente
 - _id:0 --> indica que no muestre el id, o con 0 puede ocultar el valor de una busqueda de un campo
 - 
 
-###INSERTS
+### INSERTS
 **insertar 1 campo**
 ```
 var newuser = {"name": "carles"};
@@ -75,7 +75,7 @@ db.collection('users').InsertOne(newuser, (err, result)=>{
 var newsuser = [{name:"carles", location:"barcelona"},{name:pepito", location:barna}]
 db.collection('users').InsertMany(newsuser, (err, result)=>)
 ```
-###MODIFICAR
+### MODIFICAR
 ```
 
 ```
