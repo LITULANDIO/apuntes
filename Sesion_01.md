@@ -77,7 +77,7 @@ Markdown: Es un lenguaje que se utiliza para documentar
 ###Local Repository
 
 1. Accedemos a la cuenta GITHUB y creamos un nuevo repositorio con el mismo nombre en local.
-2. luego hacemos un copy/past de la url: git remote add origin https://github.com/LITULANDIO/project_1.git y la pegaremos en la consola cmd de git.
+2. luego hacemos un copy/past de la url: **git remote add origin** https://github.com/LITULANDIO/project_1.git y la pegaremos en la consola cmd de git.
 3. Para comprobar que se ha enlazado bien utilizamos el comando: **git remote -v**
 4. Para sincronizar los repositorios: **git push -u origin master**
 5. Las siguientes veces haciendo: **git push** es suficiente
