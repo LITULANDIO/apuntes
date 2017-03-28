@@ -1,12 +1,12 @@
-#Sesion 02 -- Skylab Coders --
-###Martes 17 de Enero del 2016
+# Sesion 02 -- Skylab Coders --
+### Martes 17 de Enero del 2016
 
 
-##JAVASCRIPT
+## JAVASCRIPT
 
 Es un lenguaje interpretado, no tiene que hacer ningún proceso de compilación y es capaz de ejecutarlo sin ser compilado.
 
-####Versiones
+#### Versiones
 
  * Ecma02 -- Pasado: Explorer
  * Ecma05 -- Presente
@@ -14,9 +14,12 @@ Es un lenguaje interpretado, no tiene que hacer ningún proceso de compilación 
 
  Variables, se almacenan datos y puedan variar en diferentes estados del programa.
 
- Se declara ```javascript 
-                var nombre```
-###Datos primitivos
+ Se declara 
+```javascript 
+var nombre
+```
+ 
+### Datos primitivos
 
 Para expresar  números:
 
@@ -51,7 +54,7 @@ Para expresar los Booleanos: true or false
 
 Si no se inicializa una variables es *undefined*
 
-###Operadores aritméticos
+### Operadores aritméticos
 
    *   Suma = <**+;**
    *   Resta = **-;**
@@ -61,14 +64,14 @@ Si no se inicializa una variables es *undefined*
    *   Incremento = **++;**
    *   Decremento = **- -;**
     
-###Operadores lógicos
+### Operadores lógicos
 
    *   Verdadero = **true;**
    *   Falso = **false;**
    *   O = **||;**
    *   Y....= **&&;**
 
-###Operadores de comparación
+### Operadores de comparación
 
    *   Estrictamente igual **===;**
    *   Distinto a = **!=;**
@@ -255,7 +258,7 @@ function f() {
 f();
 ```
 
-###Practicando  closures
+### Practicando  closures
 
 var a; typeof a;  **devolverá: undefined**
 var s = '1s'; s++; **devolverá: NaN ++suma1 pero al ser string no puede sumar** 
@@ -317,3 +320,4 @@ f(); f()
  //devolviendo 2.
 ```
 
+s
