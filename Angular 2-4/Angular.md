@@ -1,8 +1,8 @@
-##ANGULAR 2/4
+# ANGULAR 2/4
 
-###¿Qué es Angular?
+## ¿Qué es Angular?
 
-###Componentes:
+### Componentes:
 Es una clase de Javascript, que tiene atributos y métodos (lógica del componente)
 El principal objetivo de un componente es soportar una vista o un template.
 
@@ -18,7 +18,7 @@ import { Component } from '@angular/core';
   }
 ```
 
-###Vista/Templates:
+### Vista/Templates:
 Va a ser un HTML con atributos de Angular, jerarquía de componentes y vistas
 ```
 <h1>
@@ -27,7 +27,7 @@ Va a ser un HTML con atributos de Angular, jerarquía de componentes y vistas
 
 ```
 
-###Databinding: 
+### Databinding: 
 Setea valores, es el pegamento, una forma de interpolación
 
 ```
@@ -41,7 +41,7 @@ export class AppComponent{
 }
 ```
 
-###Directivas:
+### Directivas:
 Son componentes que angular provee, sirve para manipular la vista, ngfor el típico.
 
 ```
@@ -51,7 +51,7 @@ Son componentes que angular provee, sirve para manipular la vista, ngfor el típ
 
 ```
 
-###Metadata:
+### Metadata:
 El pegamento que utiliza para configurar el componente, es un conjunto de atributos.
 
 ```
@@ -66,7 +66,7 @@ El pegamento que utiliza para configurar el componente, es un conjunto de atribu
 
 ```
 
-###Servicios:
+### Servicios:
 - Es una clase o un método con lógica de negocio, la idea es que pueda hacer la clase a aparte ya sea en typescript/javascript
 
 
@@ -78,10 +78,10 @@ export class CharlaService{
 }
 ```
 
-###Inyección de dependencias:
+### Inyección de dependencias:
 Es una técnica genérica de varios frameworks/patrones de diseño software para desacoplar objetos
 
-###Módulos:
+### Módulos:
 Es reusabilidad y separación de responsabilidades, separamos partes, agrupa un conjunto de responsabilidades similares.
 
 ```
@@ -101,40 +101,46 @@ Es reusabilidad y separación de responsabilidades, separamos partes, agrupa un 
 
 ```
 
-###¿Como instalar Angular 2? 
+## ¿Como instalar Angular 2? 
 
 - Primero tener instalado node js
 - Instalar typescript: (comprovamos su isntalción tsc -v)
 
-```npm install -g typescript
+```
+npm install -g typescript
 ```
 
 - Instalar Angular
-```npm install -g @angular/cli
+```
+npm install -g @angular/cli
 ```
 
 - Instalar Ionic
-```npm install -g cordova ionic
+```
+npm install -g cordova ionic
 ```
 
 
 -Crear un proyecto nuevo de 0:
 
-```ng new 'nombre del proyecto'
+```
+ng new 'nombre del proyecto'
 ```
 
 Para servir el proyecto en un servidor de prueba:
 
-```ng serve -o
+```
+ng serve -o
 ```
 
 Ejemplos prácticos:
 
-```https://github.com/nhpatt/agenda
+```
+https://github.com/nhpatt/agenda
 ```
 
 
-###Introducción TYPESCRIPT
+## Introducción TYPESCRIPT
 
 Es un super set de javascript
 basado en ES5/6
