@@ -144,7 +144,7 @@ https://github.com/nhpatt/agenda
 
 ## Introducción TYPESCRIPT 
 
-![Descargar plugin TypeScript para IDE](https://www.typescriptlang.org/index.html#download-links)
+[Descargar plugin TypeScript para IDE](https://www.typescriptlang.org/index.html#download-links)
 
 Es un super set de javascript
 basado en ES5/6
