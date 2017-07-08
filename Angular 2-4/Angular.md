@@ -1,4 +1,6 @@
-# ANGULAR 2/4  faqs markdown = https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+# ANGULAR 2/4  
+
+* faqs markdown = https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 ## ¿Qué es Angular?
 
@@ -142,7 +144,7 @@ https://github.com/nhpatt/agenda
 
 ## Introducción TYPESCRIPT 
 
-[https://www.typescriptlang.org/index.html#download-links](Descargar plugin TypeScript para IDE)
+![Descargar plugin TypeScript para IDE](https://www.typescriptlang.org/index.html#download-links)
 
 Es un super set de javascript
 basado en ES5/6
