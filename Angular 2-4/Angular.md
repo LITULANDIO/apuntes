@@ -515,7 +515,7 @@ En la calse hija se crea un método getAllData(), donde recopila todos los datos
 
 [Aquí el ejemplo](https://www.youtube.com/watch?v=gFj7J14UA3E&index=15&list=PLBdkl5-ytBTw28OJMumO-iUxYnShbhqwO)
 
-[image]:https://github.com/LITULANDIO/apuntes/blob/master/Angular%202-4/image-ejemplo.png?raw=true
+![image](https://github.com/LITULANDIO/apuntes/blob/master/Angular%202-4/image-ejemplo.png?raw=true)
 
 - Módulos de TypeScript
 
