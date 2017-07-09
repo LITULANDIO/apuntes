@@ -112,6 +112,97 @@ Es reusabilidad y separación de responsabilidades, separamos partes, agrupa un 
 npm install -g typescript
 ```
 
+Creamos un archivo llamado "tsconfig.json" y pegamos en el archivo:
+
+```
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "system",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": false,
+    "noImplicitAny": false
+  },
+  "exclude": [
+    "node_modules",
+    "typings/main",
+    "typings/main.d.ts"
+  ]
+}
+```
+
+Éste archivo sirve para configurar  y se encarga de compilar TypeScript.
+
+Luego creamos un archivo llamado: "typings.json" con el siguiente contenido:
+
+```
+{
+  "ambientDependencies": {
+    "es6-shim": "github:DefinitelyTyped/DefinitelyTyped/es6-shim/es6-shim.d.ts#7de6c3dd94feaeb21f20054b9f30d5dabc5efabd",
+    "jasmine": "github:DefinitelyTyped/DefinitelyTyped/jasmine/jasmine.d.ts#7de6c3dd94feaeb21f20054b9f30d5dabc5efabd"
+  }
+}
+```
+
+Creamos el package.json con las dependencias necesarias:
+
+```
+{
+  "name": "angular2-Carles",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "lite": "lite-server",
+    "typings": "typings",
+    "postinstall": "typings install"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "angular2": "2.0.0-beta.14",
+    "systemjs": "0.19.25",
+    "es6-shim": "^0.35.0",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.2",
+    "zone.js": "0.6.6"
+  },
+  "devDependencies": {
+    "concurrently": "^2.0.0",
+    "lite-server": "^2.2.0",
+    "typescript": "^1.8.9",
+    "typings":"^0.7.12"
+  }
+}
+```
+
+Luego en la consola isntalaremos todas las dependencias
+
+```
+npm install
+```
+
+Creamos un componente "app.Components"
+
+```
+import {Component} from "angular2/core"
+
+//metadatos 
+@Component({
+    selector: "mi-app",
+    template: "<h1> Hola Mundo desde Angular 2 </h1>"
+})
+
+export class AppComponent{}
+```
+
+
+
+
+
 - Instalar Angular
 ```
 npm install -g @angular/cli
@@ -516,6 +607,10 @@ En la calse hija se crea un método getAllData(), donde recopila todos los datos
 [Aquí el ejemplo](https://www.youtube.com/watch?v=gFj7J14UA3E&index=15&list=PLBdkl5-ytBTw28OJMumO-iUxYnShbhqwO)
 
 ![image](https://github.com/LITULANDIO/apuntes/blob/master/Angular%202-4/image-ejemplo.png?raw=true)
+
+**Ejemplo práctico de TypeScript con Angular 2:**
+
+[Aquí el ejemplo](https://www.youtube.com/watch?v=EFzSrFFQAww&index=16&list=PLBdkl5-ytBTw28OJMumO-iUxYnShbhqwO)
 
 - Módulos de TypeScript
 
