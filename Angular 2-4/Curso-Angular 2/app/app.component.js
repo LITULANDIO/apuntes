@@ -25,8 +25,24 @@ System.register(["angular2/core", "./model/pelicula"], function(exports_1, conte
             AppComponent = (function () {
                 function AppComponent() {
                     this.titulo = "Peliculas con Angular 2";
+                    this.mostrarDatos = false;
                     this.pelicula = new pelicula_1.Pelicula(1, "Braveheart", "Mel Gibson", "Mel Gibson", 1995);
+                    this.debug();
+                    this.peliculas = [
+                        new pelicula_1.Pelicula(1, "Braveheart", "Mel Gibson", "Mel Gibson", 1995),
+                        new pelicula_1.Pelicula(2, "El diario de Noah", "Nick Cassavetes", "Ryan Gosling", 2004),
+                        new pelicula_1.Pelicula(3, "Saw", "James Wan", "Tobin Bell", 2005),
+                        new pelicula_1.Pelicula(4, "Titanic", "James Cameroon", "Leonardo di Caprio", 1997),
+                        new pelicula_1.Pelicula(5, "A todo gas 8", "Mel Gibson", "Vin Diesel", 2017),
+                        new pelicula_1.Pelicula(6, "Malditos bastardos", "Quentin Tarantino", "Brad Pitt", 2009)
+                    ];
                 }
+                AppComponent.prototype.debug = function () {
+                    console.log(this.pelicula);
+                };
+                AppComponent.prototype.onShowHide = function (value) {
+                    this.mostrarDatos = value;
+                };
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: "my-app",

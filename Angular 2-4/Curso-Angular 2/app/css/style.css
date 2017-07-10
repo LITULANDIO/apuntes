@@ -9,3 +9,7 @@ li{
 	font-family: lato;
 	font-size: 16px;
 }
+
+.showinData{
+	display: none;
+}
