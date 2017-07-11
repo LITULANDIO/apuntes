@@ -5,6 +5,7 @@ System.register([], function(exports_1, context_1) {
     return {
         setters:[],
         execute: function() {
+            // Modelado de Pelicula
             Pelicula = (function () {
                 function Pelicula(id, titulo, director, actor, anio) {
                     this.id = id;

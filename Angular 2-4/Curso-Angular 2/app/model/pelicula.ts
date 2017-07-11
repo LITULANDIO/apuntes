@@ -1,4 +1,7 @@
+
+// Modelado de Pelicula
 export class Pelicula{
+	
 	constructor(
 		public id:number,
 		public titulo:string,

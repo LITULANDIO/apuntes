@@ -1,4 +1,4 @@
-System.register(["angular2/core", "./model/pelicula"], function(exports_1, context_1) {
+System.register(["angular2/core", "./components/peliculas-list-component", "./components/peliculas-footer-component", "angular2/router"], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,45 +10,38 @@ System.register(["angular2/core", "./model/pelicula"], function(exports_1, conte
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, pelicula_1;
+    var core_1, peliculas_list_component_1, peliculas_footer_component_1, router_1;
     var AppComponent;
     return {
         setters:[
             function (core_1_1) {
                 core_1 = core_1_1;
             },
-            function (pelicula_1_1) {
-                pelicula_1 = pelicula_1_1;
+            function (peliculas_list_component_1_1) {
+                peliculas_list_component_1 = peliculas_list_component_1_1;
+            },
+            function (peliculas_footer_component_1_1) {
+                peliculas_footer_component_1 = peliculas_footer_component_1_1;
+            },
+            function (router_1_1) {
+                router_1 = router_1_1;
             }],
         execute: function() {
             // Decorador component, indicamos en que etiqueta se va a cargar la plantilla
             AppComponent = (function () {
                 function AppComponent() {
                     this.titulo = "Peliculas con Angular 2";
-                    this.mostrarDatos = false;
-                    this.pelicula = new pelicula_1.Pelicula(1, "Braveheart", "Mel Gibson", "Mel Gibson", 1995);
-                    this.debug();
-                    this.peliculas = [
-                        new pelicula_1.Pelicula(1, "Braveheart", "Mel Gibson", "Mel Gibson", 1995),
-                        new pelicula_1.Pelicula(2, "El diario de Noah", "Nick Cassavetes", "Ryan Gosling", 2004),
-                        new pelicula_1.Pelicula(3, "Saw", "James Wan", "Tobin Bell", 2005),
-                        new pelicula_1.Pelicula(4, "Titanic", "James Cameroon", "Leonardo di Caprio", 1997),
-                        new pelicula_1.Pelicula(5, "A todo gas 8", "Mel Gibson", "Vin Diesel", 2017),
-                        new pelicula_1.Pelicula(6, "Malditos bastardos", "Quentin Tarantino", "Brad Pitt", 2009)
-                    ];
                 }
-                AppComponent.prototype.debug = function () {
-                    console.log(this.pelicula);
-                };
-                AppComponent.prototype.onShowHide = function (value) {
-                    this.mostrarDatos = value;
-                };
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: "my-app",
                         templateUrl: "app/view/peliculas.html",
+                        directives: [peliculas_list_component_1.PeliculasListComponent, peliculas_footer_component_1.PeliculasFooterComponent, router_1.ROUTER_DIRECTIVES],
                         styleUrls: ["app/css/style.css"]
-                    }), 
+                    }),
+                    router_1.RouteConfig([
+                        { path: "/peliculas", name: "Peliculas", component: peliculas_list_component_1.PeliculasListComponent, useAsDefault: true }
+                    ]), 
                     __metadata('design:paramtypes', [])
                 ], AppComponent);
                 return AppComponent;
