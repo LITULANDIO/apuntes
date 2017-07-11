@@ -622,6 +622,37 @@ ng serve -o
 https://github.com/nhpatt/agenda
 ```
 
+
+## ESTRUCTURA DE UN COMPONENTE
+
+```
+import {Component} from "angular2/core"
+import { Nombre1Component } from "./components/nombre1-component" 
+import { Nombre2Component } from "./nombre2-component"
+
+// Se importa en app.component todos los componentes
+
+@Component({ 
+  selector: "my-app", --> etiqueta que identifica a una pagina <myapp>aquí contendrá todo el html de la pagina</myapp>
+  templateUrl: "app/view/template.html", --> direccion donde se encuentra la vista (plantilla html)
+  providers: [nombre1Services] --> declaramos los servicios
+  directives: [nombre1Component, nombre2Component], --> declaramos los componentes
+  styleUrls: [ "app/css/style.css"] 
+
+```
+
+## ESTRUCTURA DE UN SERVICIO
+
+```
+import { Injectable } from "angular2/core" --> Injectable forma de importar un servicio
+
+@Injectable()  
+export class PeliculasService{
+
+```
+
+Los servicios en mayor parte se compone de métodos y de lógica reutilizable.
+
 ## DIRECTIVAS:
 
 ```
@@ -631,4 +662,45 @@ https://github.com/nhpatt/agenda
 
 [class.nombreClase] = "mostrarAlgo === true" --> añadir una clase css, si sse cumple algo...
 
+Two data Binding 
+
+<input type"text"[(ngModel)]="pelicula.titulo"/> --> Cambia los datos en el componente y en la vista
+
+*ngFor="#pelicula of peliculas --> Para mostrar 
+
+```
+
+## DEFINIR RUTAS
+
+//en el archivo  main.ts 
+```
+import {bootstrap} from "angular2/platform/browser"
+import { ROUTER_PROVIDERS } from "angular2/router" --> importamos
+import {AppComponent} from "./app.component"
+
+bootstrap(AppComponent, [ROUTER_PROVIDERS]) --> añadimos como parámetro
+```
+
+
+//en el archivo app.component
+importamos la configuración para crear rutas
+```
+import { ROUTER_DIRECTIVES, RouteConfig, Router } from "angular2/router" 
+
+en directives:[      ,          , ROUTER_DIRECTIVES]
+
+@RouteConfig([
+  { path: "/peliculas", name: "clase", component:nombreComponent, useAsDefault: true }
+])
+
+se pone la ruta / el nombre de la clase / nombre del componente / ruta por defecto a true
+
+```
+
+//en el archivo index.html
+```
+ <script src="node_modules/angular2/bundles/angular2.dev.js"></script>
+ <script src="node_modules/angular2/bundles/router.dev.js"></script>
+
+ antes que acabe el head --> <base href="/">
 ```
