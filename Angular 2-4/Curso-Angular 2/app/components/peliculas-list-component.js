@@ -1,4 +1,4 @@
-System.register(["angular2/core", "../services/peliculas-services"], function(exports_1, context_1) {
+System.register(["angular2/core", "../services/peliculas-services", "angular2/router"], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,7 +10,7 @@ System.register(["angular2/core", "../services/peliculas-services"], function(ex
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, peliculas_services_1;
+    var core_1, peliculas_services_1, router_1;
     var PeliculasListComponent;
     return {
         setters:[
@@ -19,6 +19,9 @@ System.register(["angular2/core", "../services/peliculas-services"], function(ex
             },
             function (peliculas_services_1_1) {
                 peliculas_services_1 = peliculas_services_1_1;
+            },
+            function (router_1_1) {
+                router_1 = router_1_1;
             }],
         execute: function() {
             // Decorador component, indicamos en que etiqueta se va a cargar la plantilla
@@ -46,6 +49,7 @@ System.register(["angular2/core", "../services/peliculas-services"], function(ex
                         selector: "peliculas-list",
                         templateUrl: "app/view/peliculas-list.html",
                         providers: [peliculas_services_1.PeliculasService],
+                        directives: [PeliculasListComponent, router_1.ROUTER_DIRECTIVES],
                         styleUrls: ["app/css/style.css"]
                     }), 
                     __metadata('design:paramtypes', [peliculas_services_1.PeliculasService])

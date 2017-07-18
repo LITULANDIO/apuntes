@@ -20,8 +20,9 @@ Cambiar título
 
 <p>Listado de peliculas:</p>
 	<ul *ngFor="#pelicula of peliculas">
-		<li (click)="onChangeFilm(pelicula)" class="pelicula-title" [class.clicked]="peliculaElegida.id===pelicula.id"><strong>Pelicula:</strong>{{pelicula.titulo}}</li>
+		<li (click)="onChangeFilm(pelicula)" class="pelicula-title" [class.clicked]="peliculaElegida.titulo===pelicula.titulo"><strong>Pelicula:</strong>{{pelicula.titulo}}</li>
 		<li><strong>Director:</strong>{{pelicula.director}}</li>
 		<li><strong>Actor:</strong>{{pelicula.actor}}</li>
-		<li><strong>Año:</strong>{{pelicula.anio}}</li>
+		<li *ngIf="pelicula.anio"><strong>Año:</strong>{{pelicula.anio}}</li>
+		<li><a [routerLink]="['CrearPeliculaBasadaEnOtra', {titulo:pelicula.titulo}]">Añadir pelicula basada en ésta</a></li>
 	</ul>

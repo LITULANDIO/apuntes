@@ -1,0 +1,21 @@
+<h2>CREAR PELICULA</h2>
+
+<p>	
+<input type="text" #titulo placeholder="Titulo" />
+</p>
+<p>
+<input type="text" #director placeholder="Director" />
+</p>
+<p>
+<input type="text" #actor placeholder="Actor" />
+</p>
+<p>
+<input type="text" #anio placeholder="Año" />
+</p>
+<p>
+<input type="submit" value="Crear pelicula" (click)="onCrearPelicula(titulo.value, director.value, actor.value, anio.value)"/>
+</p>
+
+
+
+
