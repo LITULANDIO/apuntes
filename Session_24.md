@@ -1,7 +1,7 @@
-#Sesion 24-25-26-27-28-- Skylab Coders --
-###Lunes 20 de Febrero del 2017
+# Sesion 24-25-26-27-28-- Skylab Coders --
+### Lunes 20 de Febrero del 2017
 
-###EXPRESS (framework node)
+### EXPRESS (framework node)
 
 Es un módulo npm --> hay que importarlo, nos facilita la creaacion de servidores web
 
@@ -19,7 +19,7 @@ curl localhost:3001
 **const PORT = process.env.PORT** --> variable de entorno
 En windows para poder setear las variables de entorno tendremos que ejecutar el comando **set PORT=3005 && set API_KEY=kfljelrj3494jfsf943 && node main.js**
 
--Para automatizar la escucha del servidor podemos modificar el archivo package jason en la seccion scripts, e insertar "start": set PORT=3005 && set API_KEY=kfljelrj3494jfsf943 && node main.js"
+- Para automatizar la escucha del servidor podemos modificar el archivo package jason en la seccion scripts, e insertar "start": set PORT=3005 && set API_KEY=kfljelrj3494jfsf943 && node main.js"
 De ésta manera podremos ejecutar **npm start** y directamente escuchará por el puerto
 
 Automatizar el proceso de instalación, también  lo podemos incluir en el package  jason en scripts con: **"prestart"**
@@ -32,7 +32,7 @@ Todo lo que le pasemos e el interior de la "carpeta" public será estático
 
 **curl --data ""** --> para ver en consola la respuesta de un método post!
 
-###PUG:
+### sPUG:
 Una manera muy abreviada de expresar un hmtl "npm install pug" sería el equivalente a SAAS en html
 Las tabulaciones muestran la jerarquia del  html 
 - Sirve para configurar mi servidor web (el método set)
