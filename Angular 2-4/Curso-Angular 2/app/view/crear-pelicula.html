@@ -1,21 +1,29 @@
 <h2>CREAR PELICULA</h2>
 
-<p>	
-<input type="text" #titulo placeholder="Titulo" />
-</p>
-<p>
-<input type="text" #director placeholder="Director" />
-</p>
-<p>
-<input type="text" #actor placeholder="Actor" />
-</p>
-<p>
-<input type="text" #anio placeholder="Año" />
-</p>
-<p>
+<form #miformulario ="ngForm" (ngSubmit)="onSubmit()">
+	<p>	
+	<input type="text" #titulo="ngForm" ngControl="titulo" [(ngModel)]="nuevaPelicula.titulo" placeholder="Titulo" required minlength=4/>
+	<span class="valid" *ngIf="!titulo.valid">No válido</span>
+
+	</p>
+	<p>
+	<input type="text" #director="ngForm" ngControl="director" [(ngModel)]="nuevaPelicula.director" placeholder="Director" required pattern="[A-Za-z]*"/>
+	<span class="valid" *ngIf="!director.valid"> No válido</span>
+	</p>
+	<p>
+	<input type="text" #actor="ngForm" ngControl="actor" [(ngModel)]="nuevaPelicula.actor" placeholder="Actor" required />
+	<span class="valid" *ngIf="!actor.valid">No válido</span>
+	</p>
+	<p>
+	<input type="text" #anio="ngForm" ngControl="anio" [(ngModel)]="nuevaPelicula.anio" placeholder="Año" required pattern="[0-9]*"/>
+	<span class="valid" *ngIf="!anio.valid">No válido</span>
+	</p>
+	<p>
+	<input type="submit" value="Crear pelicula " [disabled]="!miformulario.form.valid"/>
+	</p>
+</form>
+
+
+<!-- 
 <input type="submit" value="Crear pelicula" (click)="onCrearPelicula(titulo.value, director.value, actor.value, anio.value)"/>
-</p>
-
-
-
-
+ -->

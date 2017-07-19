@@ -24,5 +24,5 @@ Cambiar título
 		<li><strong>Director:</strong>{{pelicula.director}}</li>
 		<li><strong>Actor:</strong>{{pelicula.actor}}</li>
 		<li *ngIf="pelicula.anio"><strong>Año:</strong>{{pelicula.anio}}</li>
-		<li><a [routerLink]="['CrearPeliculaBasadaEnOtra', {titulo:pelicula.titulo}]">Añadir pelicula basada en ésta</a></li>
+		<li><a [routerLink]="['CrearPeliculaBasadaEnOtra', {titulo:pelicula.titulo, director: pelicula.director, actor: pelicula.actor, anio: pelicula.anio}]">Añadir pelicula basada en ésta</a></li>
 	</ul>
