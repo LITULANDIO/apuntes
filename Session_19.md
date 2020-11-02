@@ -30,7 +30,7 @@ Transform --> nos permite encadenar
 throw 2 --> es una funcion  que recibe un string de lectura después de haverse transformado
 
 npm install -g nodemon
-npm insttall npm
+npm install npm
 mkdir demo --> creamos un directorio
 npm demo init --> haciendo intro creamos un archivo json
 npm install express --save --> nos guarda como dependecia el paquete en el archivo json --> similar a bowser
